@@ -217,36 +217,35 @@ export const DATA = {
       video:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
-    // {
-    //   title: "Self Driving Car",
-    //   href: "https://magicui.design",
-    //   dates: "June 2023 - Present",
-    //   active: true,
-    //   description:
-    //     "Using NVIDIA's research paper on self driving car trained an end-to-end deep learning model that would let a car drive by itself around the track in Udacity driving simulator. It is a supervised regression problem between the car steering angles and the road images in real-time from the cameras of a car.",
-    //   technologies: [
-    //     "Python",
-    //     "TensorFlow",
-    //     "Keras",
-    //     "Deep Learning",
-    //     "Computer Vision",
-    //     "Neural Networks",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://magicui.design",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/magicuidesign/magicui",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video: "https://cdn.magicui.design/bento-grid.mp4",
-    // },
+    {
+      title: "Academorphic",
+      href: "https://academorphic.com",
+      dates: "June 2023 - Present",
+      active: true,
+      description:
+        "AI-powered research assistant that streamlines the dissertation process by automating literature reviews. It leverages the Vercel AI SDK and Retrieval-Augmented Generation (RAG) to intelligently search the ArXiv database, summarizing key findings and answering specific research questions. The tool features a generative user interface that guides students through refining their topics and exports synthesized analysis directly into a professional PDF document.",
+      technologies: [
+        "Vercel AI SDK 3.0",
+        "React",
+        "ArXiv API",
+        "RAG",
+        "LLMs",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://academorphic.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/alienpenguin10/academorphic",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "https://www.orimarash.com/content/images/size/w1000/2024/07/Screenshot-2024-07-26-at-11.55.38.png",
+      // video: "https://cdn.magicui.design/bento-grid.mp4",
+    },
     {
       title: "Ditchcarbon Auto Extraction",
       href: "https://ditchcarbon.com",
@@ -276,31 +275,6 @@ export const DATA = {
       ],
       image: "",
       video: "https://cdn.llm.report/openai-demo.mp4",
-    },
-    {
-      title: "Time Tracker for Local Business",
-      href: "#",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed distinctive time tracking software with advanced features, such as QR code employee clock-in and optimized staff scheduling algorithms. Resulted in heightened productivity and reduced costs, receiving positive client feedback as an alternative to established solutions like TSheets.",
-      technologies: [
-        "JavaScript",
-        "QR Code",
-        "Database Design",
-        "Scheduling Algorithms",
-        "Business Solutions",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
   ],
   hackathons: [
