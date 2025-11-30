@@ -8,9 +8,9 @@ export const DATA = {
   location: "Bath, UK",
   locationLink: "https://www.google.com/maps/place/bath",
   description:
-    "Computer Science student at University of Bath with a passion for AI and cybersecurity. Chair of the Cybersecurity Society and aspiring software engineer.",
+    "Computer Science & AI @ University of Bath | Building Startups | Prev. AI Engineer @ Airbus & Shell",
   summary:
-    "As a highly motivated Computer Science student at the University of Bath with a deep passion for AI and emerging technologies, I serve as the chair of the Cybersecurity Society. My strong drive and enthusiasm, combined with my ability to excel both independently and as part of a team, makes me a valuable asset to any forward-thinking organisation. I have experience with machine learning, cybersecurity, and full-stack development.",
+    "I specialise in applying advanced AI to the physical world. Currently focused on building a stealth startup on Robotics, AI and Physiology to revolutionise health and fitness. This is not just another app; we are engineering systems for physical performance.",
   avatarUrl: "/me.png",
   skills: [
     "Python",
@@ -80,6 +80,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Airbus",
+      href: "https://airbus.com",
+      badges: [],
+      location: "Filton, England, United Kingdom",
+      title: "AI Engineer",
+      logoUrl: "/airbus.png",
+      start: "Aug 2024",
+      end: "Sep 2025",
+      description:
+        "Engineered XRL metrics for multi-agent combat simulation environment (ReLeGSim) using RLlib, culminating in a research paper presented at the XAI Conference.",
+    },
+    {
       company: "BagBudy",
       href: "http://bagbudy.com",
       badges: [],
@@ -87,34 +99,22 @@ export const DATA = {
       title: "Chief Technology Officer",
       logoUrl: "/bagbudy.png",
       start: "Jul 2024",
-      end: "Present",
+      end: "Sep 2024",
       description:
         "Led the development and architecture of the BagBudy web application, a comprehensive luggage transfer service platform for Heathrow Airport. Built a seamless booking system that allows customers to schedule luggage pickup from their doorstep and delivery to the airport terminal. Implemented secure payment processing, real-time tracking, and customer management systems. Developed the complete user experience from order placement to airport meet-and-greet coordination, ensuring tamper-proof packing.",
     },
-    // {
-    //   company: "Shell",
-    //   href: "https://shell.com",
-    //   badges: [],
-    //   location: "UK",
-    //   title: "Emobility Intern",
-    //   logoUrl: "/shell.png",
-    //   start: "Aug 2024",
-    //   end: "Aug 2025",
-    //   description:
-    //     "Worked extensively with real-world customer charging session data from the Datalake, gaining deep understanding of the OCCP data exchange protocol and identifying critical AC/DC voltage issues. Performed comprehensive data cleaning and extension including time-averaged vs instantaneous power analysis, temperature data integration, and interestingness/noisiness metrics development. Conducted advanced customer segmentation using bubble chart visualizations and implemented clustering algorithms for vehicle charge curve analysis. Developed ISO 15118 certificate fetcher system for EV charging infrastructure.",
-    // },
-    // {
-    //   company: "Airbus UK",
-    //   href: "https://airbus.com",
-    //   badges: [],
-    //   location: "UK",
-    //   title: "Artificial Intelligence Placement",
-    //   logoUrl: "/airbus.png",
-    //   start: "Aug 2024",
-    //   end: "Aug 2025",
-    //   description:
-    //     "Working in a research team focusing on solving complex problems and creating proofs of concept. Collaborating with highly educated scientists and engaging with various business units, academic institutions, and industry partners. Understanding decision-making algorithms and customer use cases, conducting comprehensive literature reviews on explainability methods, developing demonstrators integrating the latest work on explainability for evaluation, and assessing performance of developed concepts and algorithms on use-case data.",
-    // },
+    {
+      company: "Shell",
+      href: "https://shell.com",
+      badges: [],
+      location: "London, England, United Kingdom",
+      title: "Data Scientist",
+      logoUrl: "/shell.png",
+      start: "Aug 2023",
+      end: "Sep 2024",
+      description:
+        "Developed predictive charging models using Time Series Transformers and built EV traffic simulation tool, while leveraging OCPP protocol and clustering vehicles based on their charge curves.",
+    },
     {
       company: "Ditchcarbon",
       badges: [],
@@ -122,8 +122,8 @@ export const DATA = {
       location: "Remote",
       title: "Summer Intern",
       logoUrl: "/ditchcarbon.png",
-      start: "Jun 2023",
-      end: "Sep 2023",
+      start: "May 2023",
+      end: "Aug 2023",
       description:
         "Excelled in modern REST API development (Ruby on Rails, B2B), managed, processed, and transformed client data using Python. Created a Carbon Emissions Calculator (React, Typescript, B2C). Developed precise automated PDF data extraction tool (GPT-4) with 95% accuracy, showcasing prompt engineering proficiency. Managed supplier research pipeline and scoped client requirements adeptly.",
     },
@@ -194,7 +194,7 @@ export const DATA = {
     },
     {
       title: "Intrusion Detection System",
-      href: "https://chatcollect.com",
+      // href: "https://chatcollect.com",
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
@@ -217,36 +217,36 @@ export const DATA = {
       video:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
-    {
-      title: "Self Driving Car",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
-      active: true,
-      description:
-        "Using NVIDIA's research paper on self driving car trained an end-to-end deep learning model that would let a car drive by itself around the track in Udacity driving simulator. It is a supervised regression problem between the car steering angles and the road images in real-time from the cameras of a car.",
-      technologies: [
-        "Python",
-        "TensorFlow",
-        "Keras",
-        "Deep Learning",
-        "Computer Vision",
-        "Neural Networks",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
-    },
+    // {
+    //   title: "Self Driving Car",
+    //   href: "https://magicui.design",
+    //   dates: "June 2023 - Present",
+    //   active: true,
+    //   description:
+    //     "Using NVIDIA's research paper on self driving car trained an end-to-end deep learning model that would let a car drive by itself around the track in Udacity driving simulator. It is a supervised regression problem between the car steering angles and the road images in real-time from the cameras of a car.",
+    //   technologies: [
+    //     "Python",
+    //     "TensorFlow",
+    //     "Keras",
+    //     "Deep Learning",
+    //     "Computer Vision",
+    //     "Neural Networks",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://magicui.design",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/magicuidesign/magicui",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video: "https://cdn.magicui.design/bento-grid.mp4",
+    // },
     {
       title: "Ditchcarbon Auto Extraction",
       href: "https://ditchcarbon.com",
@@ -312,7 +312,13 @@ export const DATA = {
         "Participated in Bath Hackathon 2024, developing innovative solutions and collaborating with fellow students on challenging technical problems.",
       image:
         "/bathhack-2024.png",
-      links: [],
+      links: [
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/penguoir/morphic",
+        },
+      ],
     },
     {
       title: "Bath Hackathon 2023 - 'Honest Emissions'",
@@ -327,7 +333,7 @@ export const DATA = {
         {
           title: "Source",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Varnie",
+          href: "https://github.com/orgs/Bath-Hack-2023/repositories",
         },
       ],
     },
