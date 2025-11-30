@@ -194,7 +194,7 @@ export const DATA = {
     },
     {
       title: "Intrusion Detection System",
-      // href: "https://chatcollect.com",
+      href: "https://chatcollect.com",
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
