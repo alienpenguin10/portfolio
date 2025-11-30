@@ -305,7 +305,7 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Bath Hackathon 2024",
+      title: "Bath Hackathon 2024 - Academorphic",
       dates: "March 2024",
       location: "Bath, UK",
       description:
