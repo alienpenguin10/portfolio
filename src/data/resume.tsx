@@ -244,7 +244,7 @@ export const DATA = {
         },
       ],
       image: "https://www.orimarash.com/content/images/size/w1000/2024/07/Screenshot-2024-07-26-at-11.55.38.png",
-      // video: "https://cdn.magicui.design/bento-grid.mp4",
+      video: "",
     },
     {
       title: "Ditchcarbon Auto Extraction",
