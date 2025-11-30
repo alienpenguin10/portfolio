@@ -214,8 +214,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      video: "",
     },
     {
       title: "Academorphic",
@@ -243,7 +242,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "https://www.orimarash.com/content/images/size/w1000/2024/07/Screenshot-2024-07-26-at-11.55.38.png",
+      image: "",
       video: "",
     },
     {
