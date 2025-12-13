@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Computer Science & AI @ University of Bath | Building Startups | Prev. AI Engineer @ Airbus & Shell",
   summary:
-    "I specialise in applying advanced AI to the physical world. Currently focused on building a stealth startup on Robotics, AI and Physiology to revolutionise health and fitness. This is not just another app; we are engineering systems for physical performance.",
+    "I specialise in applying advanced AI to the physical world. Contributing to a open source project on Robotics, AI and Physiology to revolutionise health and fitness.",
   avatarUrl: "/me.png",
   skills: [
     "Python",
